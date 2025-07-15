@@ -57,7 +57,7 @@ function ContactMe() {
         >
           Submit
         </button>
-        <input type="hidden" name="_next" value="/" />
+        <input type="hidden" name="_next" value="https://yostin-ramos.netlify.app" />
         <input type="hidden" name="_captcha" value="false" />
       </form>
     </section>

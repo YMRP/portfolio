@@ -8,7 +8,7 @@ export default function Header() {
         YM|<span className="text-2xl">WEB DEVELOPMENT</span>
       </h1>
 
-      <nav className="flex gap-5">
+      <nav className="flex gap-5 max-sm:text-center">
        
         <NavElement id="projects" text="PROJECTS" />
         <NavElement id="skils" text="SKILLS" />

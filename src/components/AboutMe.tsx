@@ -1,3 +1,5 @@
+import imgDesk from '../assets/Fondo escritorio.jpg' 
+
 function AboutMe() {
   return (
     <section className="text-white grid grid-cols-1 md:grid-cols-2" id="about">
@@ -17,7 +19,7 @@ function AboutMe() {
  
       <div className="relative w-full h-96 md:h-auto">
         <img
-          src="src/assets/Fondo escritorio.jpg"
+          src={imgDesk}
           alt="foto"
           className="w-full h-full object-cover mask-gradient-left"
         />
