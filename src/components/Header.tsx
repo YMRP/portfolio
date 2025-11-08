@@ -4,7 +4,7 @@ import NavElement from "./NavElement";
 export default function Header() {
   return (
     <header className="bg-black flex items-center justify-evenly p-5 max-sm:flex-col max-sm:gap-10">
-      <h1 className="font-black text-4xl text-white titillium-web-regular ">
+      <h1 className="font-black text-4xl text-white titillium-web-regular">
         YM|<span className="text-2xl">WEB DEVELOPMENT</span>
       </h1>
 
