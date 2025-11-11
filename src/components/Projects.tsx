@@ -35,7 +35,7 @@ function Projects() {
           alt=""
           description="Designed and developed a responsive internal web system that enables employees to access, upload, and manage confidential documents efficiently through a secure, user-friendly interface.
 Collaborated closely with backend developers to integrate robust and encrypted APIs"
-          href=""
+          href="https://caja-tlajomulco.netlify.app"
           img={cajapic}
           tools={[
             <FaReact size={30} />,
