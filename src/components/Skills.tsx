@@ -8,6 +8,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
+import { BiLogoSpringBoot } from "react-icons/bi";
 
 function Skills() {
   return (
@@ -27,6 +28,7 @@ function Skills() {
         <SiMysql size={50} className="hover:text-blue-400 duration-200" />
         <SiExpress size={50} className="hover:text-orange-400 duration-200" />
         <FaGithub size={50} className="hover:text-gray-500 duration-200"/>
+        <BiLogoSpringBoot size={50} className="hover:text-lime-400 duration-200"/>
       </div>
     </section>
   );

@@ -34,7 +34,7 @@ function Projects() {
           title="MANAGEMENT SYSTEM DOCUMENTARY"
           alt=""
           description="Designed and developed a responsive internal web system that enables employees to access, upload, and manage confidential documents efficiently through a secure, user-friendly interface.
-Collaborated closely with backend developers to integrate robust and encrypted APIs"
+Collaborated closely with backend developer to integrate robust and encrypted APIs"
           href="https://caja-tlajomulco.netlify.app"
           img={cajapic}
           tools={[
