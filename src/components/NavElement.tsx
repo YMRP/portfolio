@@ -12,7 +12,7 @@ export default function NavElement({text, id}: navElementProps)  {
       smooth={true}
       duration={500}
       offset={-80} // opcional: para compensar header fijo
-      className="cursor-pointer text-white hover:text-amber-300"
+      className=" font-light cursor-pointer text-white hover:text-black  hover:bg-white block transition duration-400 rounded p-1"
     >
       {text}
     </Link>

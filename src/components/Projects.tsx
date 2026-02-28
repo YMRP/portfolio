@@ -6,13 +6,13 @@ import { SiExpress } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
 
 import { RiTailwindCssFill } from "react-icons/ri";
-import cajapic from '../assets/cajapic.png'
+import cajapic from "../assets/cajapic.png";
 import tshirtImg from "../assets/tshirt.png";
 function Projects() {
   return (
-    <section className="px-4 py-10 bg-gray-900 text-white" id="projects">
+    <section className="px-4 py-10 bg-black  border-y  text-white  " id="projects">
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-10">
-        My Projects
+        My Projects.
       </h1>
 
       <div className="flex flex-col gap-10 max-w-5xl mx-auto">
@@ -28,6 +28,7 @@ function Projects() {
             <RiTailwindCssFill size={30} />,
             <SiMysql size={30} />,
             <SiExpress size={30} />,
+            <BiLogoTypescript size={30} />,
           ]}
         />
         <Project

@@ -12,10 +12,10 @@ function App() {
     <>
       <Header />
       <div
-        className="min-h-screen relative flex flex-col  min-w-full g"
+        className="min-h-screen relative flex flex-col  min-w-full "
         style={{
           background:
-            "radial-gradient(125% 125% at 120% 40%, #000000 40%, #0d1a36 100%)",
+            "#00000",
         }}
       >
 
