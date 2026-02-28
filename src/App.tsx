@@ -15,7 +15,7 @@ function App() {
         className="min-h-screen relative flex flex-col  min-w-full "
         style={{
           background:
-            "#00000",
+            "#000",
         }}
       >
 
