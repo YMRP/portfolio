@@ -1,3 +1,5 @@
+import { toast } from "sonner";
+
 function ContactMe() {
   return (
     <section
@@ -58,6 +60,7 @@ function ContactMe() {
         <button
           type="submit"
           className="cursor-pointer bg-black text-white font-medium py-3 px-6 rounded hover:bg-gray-900 transition-colors duration-200"
+          onSubmit={()=>{toast.success("Mensaje enviado con éxito")}}
         >
           Submit
         </button>

@@ -4,10 +4,15 @@ import { FaGithub } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
-
+import { SiSpringboot } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { FaDocker } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
+
 import cajapic from "../assets/cajapic.png";
 import tshirtImg from "../assets/tshirt.png";
+import notes from "../assets/gestornotas.jpg"
+
 function Projects() {
   return (
     <section className="px-4 py-10 bg-black  border-y  text-white  " id="projects">
@@ -32,7 +37,7 @@ function Projects() {
           ]}
         />
         <Project
-          title="MANAGEMENT SYSTEM DOCUMENTARY"
+          title="DOCUMENT MANAGEMENT SYSTEM"
           alt=""
           description="Designed and developed a responsive internal web system that enables employees to access, upload, and manage confidential documents efficiently through a secure, user-friendly interface.
 Collaborated closely with backend developer to integrate robust and encrypted APIs"
@@ -46,6 +51,8 @@ Collaborated closely with backend developer to integrate robust and encrypted AP
           ]}
           code="https://github.com/YMRP/proyecto-caja"
         />
+
+        <Project alt="Gestor notas" description="A note management application developed with Spring Boot, Hibernate, MySQL, and JWT for authentication. It implements an MVC architecture using Controllers, Repositories, and Models, enabling comprehensive note management (CRUD) in a secure and organized manner. The application is Docker-ready for deployment, facilitating portability and scalability." href="https://gestor-de-notas.netlify.app" img={notes} title="NOTES MANAGEMENT SYSTEM" code="https://github.com/YMRP/gestor-notas-front" tools={[<FaReact size={30}/>, <SiMysql size={30}/>, <BiLogoTypescript size={30}/>, <SiSpringboot size={30}/>, <FaDocker size={30}/>, <FaJava size={30}/>]} />
       </div>
     </section>
   );

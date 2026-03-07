@@ -6,27 +6,27 @@ import Projects from "./components/Projects";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
+import { Toaster } from "sonner";
 
 function App() {
   return (
     <>
+      <Toaster position="top-right" />
+
       <Header />
       <div
         className="min-h-screen relative flex flex-col  min-w-full "
         style={{
-          background:
-            "#000",
+          background: "#000",
         }}
       >
-
-        <Presentation/>
-        <Projects/>
-        <Skills/>
-        <AboutMe/>
-        <ContactMe/>
-      
+        <Presentation />
+        <Projects />
+        <Skills />
+        <AboutMe />
+        <ContactMe />
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
