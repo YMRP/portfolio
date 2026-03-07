@@ -1,5 +1,5 @@
 import { FaLinkedin, FaInstagramSquare, FaFacebookSquare } from "react-icons/fa";
-import cv from "../assets/YOSTIN_CV_2026.pdf";
+import cv from "../assets/YOSTIN_CV_2026_2.pdf";
 import { motion } from "framer-motion";
 
 function Presentation() {

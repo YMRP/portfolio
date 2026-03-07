@@ -1,4 +1,3 @@
-import { toast } from "sonner";
 
 function ContactMe() {
   return (
@@ -14,6 +13,7 @@ function ContactMe() {
         action="https://formsubmit.co/ramosyostin2003@gmail.com"
         method="POST"
         className="flex flex-col gap-6 w-full max-w-lg p-8 bg-white rounded-lg border border-gray-200 shadow-sm"
+    
       >
         <div className="flex flex-col text-left">
           <label htmlFor="name" className="mb-2 text-sm font-medium">
@@ -60,7 +60,7 @@ function ContactMe() {
         <button
           type="submit"
           className="cursor-pointer bg-black text-white font-medium py-3 px-6 rounded hover:bg-gray-900 transition-colors duration-200"
-          onSubmit={()=>{toast.success("Mensaje enviado con éxito")}}
+          
         >
           Submit
         </button>
