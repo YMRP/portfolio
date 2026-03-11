@@ -7,6 +7,7 @@ import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
 import { Toaster } from "sonner";
+import FadeInSection from "./components/FadeInSection";
 
 function App() {
   return (
@@ -21,10 +22,20 @@ function App() {
         }}
       >
         <Presentation />
-        <Projects />
-        <Skills />
-        <AboutMe />
-        <ContactMe />
+        <FadeInSection>
+          <Projects />
+        </FadeInSection>
+
+        <FadeInSection>
+          <Skills />
+        </FadeInSection>
+        <FadeInSection>
+          <AboutMe />
+        </FadeInSection>
+
+        <FadeInSection>
+          <ContactMe />
+        </FadeInSection>
       </div>
       <Footer />
     </>
